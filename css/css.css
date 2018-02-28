@@ -1,8 +1,10 @@
+/*body{
+	position: relative;
+}*/
 .D_top{
 	width: 100%;
 	height: 52px;
 	background-color: black;
-	
 }
 .D_top>.D_top_form{
 	width: 245px;
@@ -28,7 +30,6 @@
 	outline:medium;
 	border-radius:0 25px 25px 0;
 	background: #de5304 url(../img/search.png) no-repeat center center;
-	/*background-size:100% 100% ;*/
 }
 .con_zt{
 	width: 300px;
@@ -60,25 +61,57 @@
 .ulpo>.lii2{
 	padding-left: 0;
 }
+@media only screen and (min-width: 580px) and (max-width:768px) {
+.ulpo>.lii2{
+	padding-left: 10px;
+}
+}
 .lunz{
 	width: 35px;
 	height: 35px;
 	background-color: #fff;
 	position: absolute;
 	left: 300% !important;
-	top: 80% !important;
+	top: 65% !important;
 	background: url(../img/left.png) no-repeat center;
 
 }
 .luny{
 	width: 35px;
 	height: 35px;
-	background-color: blue;
 	position: absolute;
 	right: 300% !important;
-	top: 80% !important;
+	top: 65% !important;
 	background: url(../img/right.png) no-repeat center;
 
+}
+.lunzhao{
+	width: 100%;
+	min-height: 152px;
+	left: 0;
+	top: 50%;
+	margin-top: -126px;
+	color: #fff;
+}
+.lunzhao>p:nth-of-type(1){
+	font-size: 30px;
+	color: #fff;
+	letter-spacing: 3px;
+}
+.lunzhao>p:nth-of-type(2){
+	font-size: 12px;	
+	letter-spacing: 5px;
+}
+.lunzhao>a{
+	display: inline-block;
+	width: 133px;
+	height: 38px;
+	background-color: #ff5000;
+	color: #fff !important;
+	text-decoration: none !important;
+	margin-top: 20px;
+	font-size: 12px;
+	line-height: 38px;
 }
 @media only screen and (max-width: 860px) {
 	.ulpo>li{
@@ -98,15 +131,11 @@
 	position: absolute;
 	right: 295% !important;
 	top: 80% !important;
-
-
 }
 	.lunz{
 	position: absolute;
 	left: 295% !important;
 	top: 80% !important;
-
-
 }
 .ulpo>li{
 	padding: 0 10px;
@@ -120,15 +149,11 @@
 	position: absolute;
 	right: 290% !important;
 	top: 80% !important;
-
-
 }
 	.lunz{
 	position: absolute;
 	left: 290% !important;
 	top: 80% !important;
-
-
 }
 }
  .ma_z_title{
@@ -155,13 +180,10 @@
 }
 .p71{
 	padding-left: 70px !important;
-/*	width: 570px !important;*/
-	/*margin-right: 45px;*/
 }
 .ma_y_t1{
 	width: 600px;
 	height: 450px;
-/*	height: auto;*/
 }
 .c6_tu1{
 	width: 520px ;
@@ -188,11 +210,9 @@
 	padding-top: 80px;
 	padding-bottom: 75px;
 	background: url(../img/banner1.jpg) no-repeat center center;
-	background-size: 100% auto;
 }
 .m_bbt>p{
 	text-align: center;
-	
 }
 .m_bbt>p:nth-child(1){
 	font-size: 35px;
@@ -217,12 +237,13 @@
 	border-radius:50% ;
 	line-height: 107px;
 	box-sizing: border-box;
-	
 }
 .con_wrap{
-	/*width: 1164px;*/
+	width: 1164px;
 	margin: 0 auto;
-	/*background-color: #fff;*/
+}
+.m0a{
+	margin: 0 auto;
 }
 .con_wrap .md_3{
 	width: 140px;
@@ -230,6 +251,25 @@
 	float: left;
 	margin-left: 200px;
 	text-align: center;
+}
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
+.con_wrap{
+	width: 980px;
+}
+.con_wrap .md_3{
+	margin-left: 130px;
+}
+}
+@media only screen and (min-width: 800px) and (max-width: 989px) {
+.con_wrap{
+	width: 730px;
+}
+.con_wrap .md_3{
+	margin-left: 50px;
+}
+.m_b_b {
+    margin-top: 30px;
+}
 }
 .con_wrap .md_3:nth-child(1){
 	margin-left: 0;
@@ -244,6 +284,23 @@
 	font-size: 12px;
 	margin-bottom: 0px;
 	color: #fff;
+}
+@media only screen and (min-width: 600px) and (max-width: 799px) {
+.con_wrap{
+	width: 680px;
+}
+.con_wrap .md_3{
+	margin-left: 30px;
+}
+.m_b_b {
+    margin-top: 20px;
+}
+.con_wrap .md_3>p:nth-of-type(1){
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	color: #1d6082;
+}
 }
 .m_c{
 	padding-top: 64px;
@@ -275,7 +332,6 @@
 	margin-top: 14px;
 	position: relative;
 }
-
 .mc_b>.mc_ba>ul>li img{
 	width: 250px;
 	height: 167px;
@@ -301,7 +357,7 @@
 	display: none;
 	box-sizing: border-box;
 }
-.yinb .yinb_a{
+.yinb .btn_co{
 	width: 210px;
 	height: 35px;
 	background-color: #c15622;
@@ -309,19 +365,16 @@
 	line-height: 35px;
 	margin: 0 auto;
 	color: #fff;
+	padding: 0 0 !important;
+	border: none;
 }
 .mc_b>.mc_ba>ul>li:hover .yinb{
 	display: block;
 	
 }
-.mc_b>.mc_ba>ul>li:hover a{
-	text-decoration: none !important;
+.yinb .btn_co:hover{
+	background-color: #c15622 !important;
 }
-/*@media only screen and (min-width: 768px) and (max-width: 1200px) {
-	.con_wrap{
-		width: 860px;
-	}
-}*/
 .m_d{
 	padding-top: 80px;
 }
@@ -341,3 +394,144 @@
 	font-weight: 600;
 	color: #fff;
 }
+.pof{
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9;
+	width: 100%;
+}
+.zhid{
+	width: 100%;
+	height: 70px;
+}
+.sdw{
+	width: 34px;
+	height: 34px;
+	right: 8%;
+	bottom: 0;
+	background: url(../img/arrow.png) no-repeat center center;
+}
+.zhao{
+	width:100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	display: none;
+}
+.hov>.otp:hover .zhao{
+	display: block;
+}
+.zhao>div{
+	
+	width: 90%;
+	height: 70px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -45%;
+	margin-top: -35px;
+}
+.zhao>div>a{
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	background-color: rgba(96,96,96,0.5);
+	text-decoration: none;
+	line-height: 40px;
+	color: #fff !important;
+	letter-spacing: 8px;
+	font-size: 18px;
+}
+.zhao>div>span{
+	display: inline-block;
+	font-size: 12px;
+	line-height: 30px;
+	color: #fff;
+	letter-spacing: 10px;
+}
+.qieh{
+	right: 8%;
+	bottom: 2%;
+}
+.qieh>a{
+	display: inline-block;
+	width: 48px;
+	height: 20px;
+	background-color: #3a3a3a;
+	border-radius: 10px;
+}
+/*模态框*/
+
+#myModal3{
+	position: fixed !important;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
+	z-index: 99;
+	display: none;
+}
+#myModal3 .top{
+	width: 100%;
+	height: 53px;
+	background-color: #000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-top: 6px;
+	box-sizing: border-box;
+}
+#myModal3 .top>.btn-ba{
+	width: 50px;
+	height: 53px;
+	bottom: 0;
+	right: 5%;
+	color: #fff;
+	background-color: black;
+	font-size: 30px;
+	outline:none;
+	border:none ;
+}
+#myModal3 .top p{
+	text-align: center;
+	margin: 0 0;
+}
+#myModal3 .top p:nth-child(1){
+	font-size: 18px;
+	font-weight: 600;
+	color: #fff;
+}
+#myModal3 .top p:nth-child(2){
+	font-size: 12px;
+	color: #fff;
+	line-height: 15px;
+}
+#myModal3 .lun{
+	width: 640px;
+	height: 425px;
+	margin: 0 auto;
+	margin-top: 150px;
+}
+.tn3-text-bg{
+	display: none;
+}
+/*#myModal .ab-a{
+	width: 640px;
+	height: 425px !important;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -218px;
+	margin-left: -320px;
+}
+#myModal .ab-a .ab-b{
+	width: 640px;
+	height: 425px !important;
+}
+#myModal .ab-bc{
+	border-bottom:none  !important;
+	width: 100% !important;
+	height: 53px !important;
+	background-color: black;
+}*/
