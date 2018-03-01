@@ -6,9 +6,13 @@ ul,li{list-style: none;}
 	font-family:'主题字';
 	src: url('../fonts/fontawesome-webfont.ttf');
 }
+/*html{
+	  overflow: hidden;
+}*/
 body{
 	font-family:'主题字';
   font-size:12px;
+
 /* font: 16px 'webfont';*/
 }
 .clearfix:after,.clearfix:before{  /*清除浮动*/
@@ -35,8 +39,3 @@ a:hover{color: red !important;}
 .fr{
 	float: right;
 }
-/*@media only screen and (max-width: 980px) {
-	.navbar-header{
-		display: block;
-	}
-}*/

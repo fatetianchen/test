@@ -6,7 +6,7 @@ $(document).scroll(function(){
 	} if(tops<50) {
 		$('.nav_con').removeClass('pof');
 		$('.daohang').removeClass('zhid');
-	}if(tops>1900){
+	} if(tops>1900){
 		$('.mc_b>.mc_ba>ul>li:nth-last-of-type(-n+6)').css('display','block')
 	}else{
 //		$('.mc_b>.mc_ba>ul>li:nth-last-of-type(-n+6)').css('display','none')
@@ -32,4 +32,5 @@ $('.btn_co').click(function(){
 $('.btn-ba').click(function(){
 	$("#myModal3").fadeOut(500);
 })
-
+//新闻轮播
+	

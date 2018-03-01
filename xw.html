@@ -49,7 +49,7 @@
 				</div><!-- /.container-fluid -->
 			</nav>
 		</div>
-		<div  class="carousel slide">
+		<div  class="carousel slide dingn">
 			<div class="carousel-inner">
 				<div class="item active por" >
 					<img src="img/banner2.jpg" alt="第一张">
@@ -57,29 +57,12 @@
 			</div>
 		</div>
 		<div class="m_b container-fluid">
-			<div class="xw_m container por" id="ajax">
-				<div class="box" id="box"></div>
-				<!--<nav aria-label="Page navigation">
-					  <ul class="pagination">
-					    <li>
-					      <a href="#" aria-label="Previous">
-					        <span aria-hidden="true">&laquo;</span>
-					      </a>
-					    </li>
-					    <li><a href="#">1</a></li>
-					    <li><a href="#">2</a></li>
-					    <li><a href="#">3</a></li>
-					    <li><a href="#">4</a></li>
-					    <li><a href="#">5</a></li>
-					    <li>
-					      <a href="#" aria-label="Next">
-					        <span aria-hidden="true">&raquo;</span>
-					      </a>
-					    </li>
-					  </ul>
-				</nav>-->
-
+			<div class="xw_m " id="ajax">
+			
 			</div>
+		</div>
+		<div class="container-fluid por fenye">
+			<div class="box" id="box"></div>
 		</div>
 		<div class="container-fluid m_e">
 			<p >SPIUHHJH</p>
@@ -89,15 +72,17 @@
 	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/ajax.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/paging.min.js" type="text/javascript" charset="utf-8"></script>
-	<script>
-        $('#box').paging({
-		    initPageNo: 1, // 初始页码
-		    totalPages: 13, //总页数
-//		    totalCount: '合计130条数据', // 条目总数
-		    slideSpeed: 600, // 缓动速度。单位毫秒 
-		    callback: function(page) { // 回调函数 
-		        console.log(page);
-    }
+	<script src="js/ajax.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(document).scroll(function(){
+	var tops=$(this).scrollTop();
+	if(tops >50) {
+		$('.nav_con').addClass('pof');
+		$('.daohang').addClass('zhid');
+	}else if(tops<50) {
+		$('.nav_con').removeClass('pof');
+		$('.daohang').removeClass('zhid');
+	}
 })
 	</script>
 </html>

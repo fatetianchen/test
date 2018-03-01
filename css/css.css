@@ -287,7 +287,7 @@
 }
 @media only screen and (min-width: 600px) and (max-width: 799px) {
 .con_wrap{
-	width: 680px;
+	width: 650px;
 }
 .con_wrap .md_3{
 	margin-left: 30px;
@@ -383,6 +383,7 @@
 	padding-right: 0px !important;
 }
 .m_e{
+	width: 100%;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	background-color: #000;
@@ -412,102 +413,80 @@
 	bottom: 0;
 	background: url(../img/arrow.png) no-repeat center center;
 }
-.zhao{
+.zhez{
 	width:100%;
-	height: 100%;
+	height:100%;
 	background-color: rgba(0,0,0,0.6);
 	display: none;
+	text-align: center;
 }
-.hov>.otp:hover .zhao{
+.arrlis:hover .zhez{
 	display: block;
 }
-.zhao>div{
-	
-	width: 90%;
-	height: 70px;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin-left: -45%;
-	margin-top: -35px;
-}
-.zhao>div>a{
-	display: inline-block;
+.zhez>div{
 	width: 100%;
-	height: 40px;
-	background-color: rgba(96,96,96,0.5);
-	text-decoration: none;
-	line-height: 40px;
-	color: #fff !important;
-	letter-spacing: 8px;
-	font-size: 18px;
+	height: 15%;
+/*	background-color: #fff;*/
+	bottom: 50%;
+	left: 0;
+	margin-bottom: -13%;
 }
-.zhao>div>span{
-	display: inline-block;
-	font-size: 12px;
-	line-height: 30px;
+.zhez>div>button{
+	width: 70%;
+	height: 50%;
+	color: #fff;
+	font-size: 18px;
+/*	color: red;*/
+	background-color: rgba(96,96,96,0.5);
+	border: none;
+}
+.zhez>div>p{
 	color: #fff;
 	letter-spacing: 10px;
+	font-size: 12px;
 }
-.qieh{
-	right: 8%;
-	bottom: 2%;
-}
-.qieh>a{
-	display: inline-block;
-	width: 48px;
-	height: 20px;
-	background-color: #3a3a3a;
-	border-radius: 10px;
-}
-/*模态框*/
 
-#myModal3{
-	position: fixed !important;
-	left: 0;
-	bottom: 0;
+/*模态框*/
+.bor-no{
+	border: none !important;
 	width: 100%;
-	height: 100%;
-	background-color: rgba(0,0,0,0.7);
-	z-index: 99;
-	display: none;
+	height: 60px;
+	background-color: rgba(0,0,0,1);
 }
-#myModal3 .top{
+#myModal{
+	background-color: rgba(0,0,0,0.8) !important;
+}
+
+#myModal .top{
 	width: 100%;
-	height: 53px;
-	background-color: #000;
+	height: 60px;
+/*	background-color: #000;*/
 	position: absolute;
 	top: 0;
 	left: 0;
 	padding-top: 6px;
 	box-sizing: border-box;
 }
-#myModal3 .top>.btn-ba{
-	width: 50px;
-	height: 53px;
-	bottom: 0;
-	right: 5%;
-	color: #fff;
-	background-color: black;
+#myModal .top span{
+	display: inline-block;
+	line-height: 50px;
 	font-size: 30px;
-	outline:none;
-	border:none ;
 }
-#myModal3 .top p{
+#myModal .top p{
 	text-align: center;
 	margin: 0 0;
 }
-#myModal3 .top p:nth-child(1){
+#myModal .top p:nth-of-type(1){
 	font-size: 18px;
 	font-weight: 600;
 	color: #fff;
 }
-#myModal3 .top p:nth-child(2){
+#myModal .top p:nth-of-type(2){
 	font-size: 12px;
 	color: #fff;
 	line-height: 15px;
 }
-#myModal3 .lun{
+#myModal .lun{
 	width: 640px;
 	height: 425px;
 	margin: 0 auto;
@@ -516,22 +495,140 @@
 .tn3-text-bg{
 	display: none;
 }
-/*#myModal .ab-a{
-	width: 640px;
-	height: 425px !important;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin-top: -218px;
-	margin-left: -320px;
+@media only screen and (min-width: 680px) and (max-width: 800px) {
+	.rvc-prv{						
+	right: 16% !important;			
 }
-#myModal .ab-a .ab-b{
-	width: 640px;
-	height: 425px !important;
 }
-#myModal .ab-bc{
-	border-bottom:none  !important;
-	width: 100% !important;
-	height: 53px !important;
-	background-color: black;
+/*第二屏自适应*/
+@media only screen and (min-width: 500px) and (max-width: 860px) {
+	.mc_b>.mc_ba{
+		width: 550px;
+	}
+	.mc_b>.mc_ba ul li{
+		margin: 0;	
+	}
+	.mc_b>.mc_ba ul li:nth-of-type(2){
+		float: right;
+	}
+	.mc_b>.mc_ba ul li:nth-of-type(3){
+		float: right;
+	}
+	.mc_b>.mc_ba ul li:nth-of-type(6){
+		float: right;
+	}
+	.mc_b>.mc_ba ul li:nth-of-type(8){
+		float: right;
+	}
+	.mc_b>.mc_ba ul li:nth-of-type(10){
+		float: right;
+	}
+	.mc_b>.mc_ba ul li:nth-of-type(12){
+		float: right;
+	}
+	.mc_b>.mc_ba ul li:nth-of-type(14){
+		float: right;
+	}
+	.mc_b>.mc_ba ul li:nth-last-of-type(-n+13){
+		margin-top: 10px;
+	}
+	.mc_b>.mc_ba ul li:nth-of-type(9){
+		display: none !important;
+	}
+	.rvc-prv{						
+	right: 18% !important;			
+}
+}
+
+/*新闻轮播*/
+.rvc{			
+	max-width: 100%;
+	position: relative;
+	margin: auto;
+	padding-top: 40px;
+	overflow: hidden;
+}
+.rvc .rvc-wrapper{
+	margin: auto;
+	overflow: hidden;
+}
+.rvc .rvc-wrapper ul{
+	overflow: hidden;
+	position: relative;
+}
+.rvc .rvc-wrapper ul li{
+	float: left;
+	background: #ee4433;
+	/*margin-left: 0 !important;*/
+	/*width: 355px !important;*/
+	/*height: 447px;*/
+/*	margin-left: 0 !important;*/
+/*	width: 350px !important;*/
+}
+/*.rvc .rvc-wrapper ul li a{
+	display: block;
+	width: 100%;
+	height: auto;
+	text-decoration: none;
 }*/
+.rvc .rvc-wrapper>ul>li>a .img-wrapper{
+	height: 100%;
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+/*.rvc .rvc-wrapper ul li a h2{
+	margin-top: 10px;
+	text-align: center;
+	color: #fff;
+}*/
+/*.rvc .rvc-wrapper ul li a p{
+	padding: 10px;
+	height: 80px;
+	color: #fff;
+	font-size: 14px;
+}*/
+.rvc-prv,.rvc-next{
+	width: 35px !important;
+	height: 20px !important;
+	position: absolute;
+	height: 100%;
+	top: 0%;
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    background-color: #313131;
+    border-radius: 10px;
+}
+.rvc-prv{						
+	right: 15%;			
+}
+.rvc-next{			
+	right: 10%;
+	
+}
+.w100{
+	width: 10px !important;
+}
+.rvc .rvc-wrapper>ul>li>a .img-wrapper img{
+	width: 100%;
+	height: 100%;
+}
