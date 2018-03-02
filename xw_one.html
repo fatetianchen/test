@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>游戏网站</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/jq22.css"/>
+		<link rel="stylesheet" type="text/css" href="css/css.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/xw.css"/>
+	</head>
+	<body>
+		<div class="container-fluid D_top clearfix Cme poa">
+			<form class="container D_top_form clearfix fr">
+		         <input type="text" placeholder="Search" class="fl">
+	        	<button type="submit" class="fr" ></button>
+	       </form>
+		</div>
+		<div class="daohang poa">
+			<nav class=" navbar-default nav_con">
+				<div class="container por">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+				    <div class="container">
+				    	<div class="con_zt1 poa">FANTASY&nbsp;&nbsp;WORLD</div>
+				      <button type="button" class="navbar-toggle collapsed shoji" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				      <!--<a class="navbar-brand" href="#">Brand</a>-->
+				    </div>
+			
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				        <ul class="nav navbar-nav ulpo arrli">
+					        <li><a href="index.html">HOME</a></li>
+					        <li><a href="index.html#GT2">ABOUT</a></li>
+					        <li class="lii1"><a href="index.html#GT3">SERVICES</a></li>
+				        </ul>
+				     	<div class="con_zt">FANTASY&nbsp;&nbsp;WORLD</div>
+				        <ul class="nav navbar-nav navbar-right ulpo arrli1">
+				        	<li class="lii2"><a href="index.html#GT4">GALLERY</a></li>
+				        	<li><a href="index.html#GT5">NEWS</a></li>
+				        	<li><a href="javascript:">CONTACT</a></li>
+					        
+				        </ul>
+				    </div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav>
+		</div>
+		<section id="home" class="welcome-area">
+		    <div class="welcome-slider-area">
+		      <div id="welcome-slide-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+		        <div class="carousel-inner" role="listbox">
+		          <div class="item active">
+		            <div class="single-slide-item slide-1">
+		              <div class="single-slide-item-table">
+		                <div class="single-slide-item-tablecell">
+		                  <div class="container">
+		                  </div>
+		                </div>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		</section>
+		<div class="container-fluid xw-main xw-main-1" >
+			<div class="container" id="ajax">
+				
+			</div>
+		
+		</div>
+
+		<div class="container-fluid m_e">
+			<p >SPIUHHJH</p>
+		</div>
+	</body>
+	<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/js.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$.ajax({
+					url: "http://139.196.239.213/thinkcmf/data_news.php?post_net=gamepoch.cn",
+					dataType:'json', 
+					data: {userId:"1"}, //请求的附加参数，用json对象
+					method:'POST',
+					success: function(data){
+//						console.log(data)
+					$('#ajax').html(data[0].post_content);
+					},
+				});
+	</script>
+</html>

@@ -152,3 +152,7 @@ $('#box').paging({
 		        }
     }
 })
+//$('.arr-btn1').click(function(){
+//	console.log(i);
+//	$('formm1').attr('action','xw.html');
+//})

@@ -2,27 +2,28 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>游戏网站</title>
 		<link rel="stylesheet" type="text/css" href="css/base.css"/>
 		<link rel="stylesheet" type="text/css" href="css/jq22.css"/>
 		<link rel="stylesheet" type="text/css" href="css/css.css"/>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 	</head>
 	<body>
-		<div class="D_top clearfix Cme">
-			<form class="D_top_form fr clearfix">
-		        <!--<div class="form-group">-->
-		          <input type="text" placeholder="Search" class="fl">
-		        <!--</div>-->
-	        	<button type="submit" class="fl" ></button>
-	      </form>
+		<div class="container-fluid D_top clearfix Cme poa">
+			<form class="container D_top_form clearfix fr">
+		         <input type="text" placeholder="Search" class="fl">
+	        	<button type="submit" class="fr" ></button>
+	       </form>
 		</div>
-		<div class="daohang por">
+		<div class="daohang poa">
 			<nav class=" navbar-default nav_con">
-				<div class="container-fluid por">
+				<div class="container por">
 			    <!-- Brand and toggle get grouped for better mobile display -->
-				    <div class="navbar-header">
-				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				    <div class="container">
+				    	<div class="con_zt1 poa">FANTASY&nbsp;&nbsp;WORLD</div>
+				      <button type="button" class="navbar-toggle collapsed shoji" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 				        <span class="sr-only">Toggle navigation</span>
 				        <span class="icon-bar"></span>
 				        <span class="icon-bar"></span>
@@ -42,54 +43,83 @@
 				        <ul class="nav navbar-nav navbar-right ulpo arrli1">
 				        	<li class="lii2"><a href="javascript:">GALLERY</a></li>
 				        	<li><a href="javascript:">NEWS</a></li>
-				        	<li><a href="xw.html">CONTACT</a></li>
+				        	<li><a href="javascript:">CONTACT</a></li>
 					        
 				        </ul>
 				    </div><!-- /.navbar-collapse -->
 				</div><!-- /.container-fluid -->
 			</nav>
 		</div>
-		<div id="myCarousel" class="carousel slide">
-			<!--<ol class="carousel-indicators">
-				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-				<li data-target="#myCarousel" data-slide-to="1"></li>
-				<li data-target="#myCarousel" data-slide-to="2"></li>
-			</ol>-->
-			<div class="carousel-inner">
-				<div class="item active por" >
-					<div class=" poa lunzhao text-center">
-						<p>GIRL DRAGON FANTASY SWORD WING</p>
-						<p>WPRLD BUILDING IS COMPONENT OF FANTASY</p>
-						<a href="javascript:">Rcod MOrc</a>
-					</div>
-					<img src="img/banner2.jpg" alt="第一张">
-				</div>
-				<div class="item por" >
-					<div class=" poa lunzhao text-center">
-						<p>GIRL DRAGON FANTASY SWORD WING</p>
-						<p>WPRLD BUILDING IS COMPONENT OF FANTASY</p>
-						<a href="javascript:">Rcod MOrc</a>
-					</div>
-					<img src="img/banner1.jpg" alt="第二张">
-				</div>
-				<div class="item por" >
-					<div class=" poa lunzhao text-center">
-						<p>GIRL DRAGON FANTASY SWORD WING</p>
-						<p>WPRLD BUILDING IS COMPONENT OF FANTASY</p>
-						<a href="javascript:">Rcod MOrc</a>
-					</div>
-					<img src="img/banner3.jpg" alt="第三张">
-				</div>
-			</div>
-			<a href="#myCarousel" data-slide="prev" class="carousel-control left">
-				<span class="lunz"></span>
-				
-			</a>
-			<a href="#myCarousel" data-slide="next" class="carousel-control right">
-				<span class="luny"></span>
-			</a>
-		</div>
-		<div class="container Cme">
+		<section id="home" class="welcome-area">
+		    <div class="welcome-slider-area">
+		      <div id="welcome-slide-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+		        <ol class="carousel-indicators carousel-indicators-slider">
+		          <li data-target="#welcome-slide-carousel" data-slide-to="0" class="active"></li>
+		          <li data-target="#welcome-slide-carousel" data-slide-to="1" class=""></li>
+		          <li data-target="#welcome-slide-carousel" data-slide-to="2" class=""></li>
+		          <!--<li data-target="#welcome-slide-carousel" data-slide-to="3" class=""></li>-->
+		        </ol>
+		        <div class="carousel-inner" role="listbox">
+		          <div class="item active">
+		            <div class="single-slide-item slide-1">
+		              <div class="single-slide-item-table">
+		                <div class="single-slide-item-tablecell">
+		                  <div class="container">
+		                    <div class="row">
+		                      <div class="col-md-12">
+		                        <h2 id="wz1">GIRL DRAGON FANTASY SWORD WING</h2>
+		                        <span></span>
+		                        <p>WPRLD BUILDING IS COMPONENT OF FANTASY</p>
+		                        <a class="btn btn-lg btn-custom luna" href="#">Rcod MOrc</a>
+		                      </div>
+		                    </div>
+		                  </div>
+		                </div>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="item">
+		            <div class="single-slide-item slide-2">
+		              <div class="single-slide-item-table">
+		                <div class="single-slide-item-tablecell">
+		                  <div class="container">
+		                    <div class="row">
+		                      <div class="col-md-12">
+		                        <h2 id="wz1">GIRL DRAGON FANTASY SWORD WING</h2>
+		                        <span></span>
+		                        <p>WPRLD BUILDING IS COMPONENT OF FANTASY</p>
+		                        <a class="btn btn-lg btn-custom luna" href="#">Rcod MOrc</a>
+		                      </div>
+		                    </div>
+		                  </div>
+		                </div>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="item">
+		            <div class="single-slide-item slide-3">
+		              <div class="single-slide-item-table">
+		                <div class="single-slide-item-tablecell">
+		                  <div class="container">
+		                    <div class="row">
+		                      <div class="col-md-12">
+		                        <h2 id="wz1">GIRL DRAGON FANTASY SWORD WING</h2>
+		                        <span></span>
+		                        <p>WPRLD BUILDING IS COMPONENT OF FANTASY</p>
+		                        <a class="btn btn-lg btn-custom luna" href="#">Rcod MOrc</a>
+		                      </div>
+		                    </div>
+		                  </div>
+		                </div>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+		    </div>
+		    	
+		</section>
+		<div class="container Cme" id="GT2">
 			<!--<div class=""> -->
 				<div class="row  pt73">
 					<div class="col-md-6 p71">
@@ -109,15 +139,11 @@
 							<img src="img/ab.jpg" alt=""  class="c6_tu1 poa"/>
 							<img src="img/ab1.jpg" alt="" class="c6_tu2 poa"/>
 						</div>
-						<!--<div class="ma_y_t2">-->
-							
-							
-						<!--</div>-->
 					</div>
 				</div>
 			<!--</div>-->
 		</div>
-		<div class="container-fluid m_b Cme">
+		<div class="container-fluid m_b Cme"  id="GT3">
 			<div class="row">
 				<div class="col-md-12 m_bbt">
 					<p>SERVICES</p>
@@ -125,29 +151,29 @@
 				</div>
 			</div>
 			<div class="row m_b_b">
-				<div class="con_wrap clearfix">
-					<div class="md_3">
+				<div class="container clearfix">
+					<div class="col-md-3 m_b_b_b">
 						<span class="md_3_1">
 							<img src="img/s1.png" alt="" />
 						</span>
 						<p>SERVICE 1</p>
 						<p>locem lpsum</p>
 					</div>
-					<div class="md_3">
+					<div class="col-md-3 m_b_b_b">
 						<span class="md_3_1">
 							<img src="img/s2.png" alt="" />
 						</span>
 						<p>SERVICE 2</p>
 						<p>locem lpsum</p>
 					</div>
-					<div class="md_3">
+					<div class="col-md-3 m_b_b_b">
 						<span class="md_3_1">
 							<img src="img/s3.png" alt="" />
 						</span>
 						<p>SERVICE 3</p>
 						<p>locem lpsum</p>
 					</div>
-					<div class="md_3">
+					<div class="col-md-3 m_b_b_b">
 						<span class="md_3_1">
 							<img src="img/s4.png" alt="" />
 						</span>
@@ -157,130 +183,108 @@
 				</div>
 			</div>
 		</div>
-		<div class="container-fluid m_c Cme1 ">
+		<div class="container-fluid m_c Cme1 " id="GT4">
 			<div class="m0a por">
 				<div class="row mc_a">
 					<p>LATEST GALLERY</p>
 					<p>Lorem Ipsum Dolor</p>
 				</div>
-				<div class="row mc_b">
-					<div class="mc_ba">
-						<ul class="clearfix">
-							<li class="ml0 mt0">
-								<div class="yinb">
-									<button type="button" class="btn btn-primary btn-lg btn_co" data-toggle="modal" data-target="#myModal" >
+				<div class="row mc_b ">
+					<!--<div class="mc_ba">-->
+						<ul class="container clearfix">
+							<li class="col-md-4">
+								<div class="yinb ">
+									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
-									<!--<div class="feed" id="feed1">
-										<div class="heart heartAnimation" id="like1" rel="unlike" style="">				
-										</div> 
-										<div class="likeCount" id="likeCount1">15</div>
-									</div>-->
 								</div>
 								<a href="javascript:">
-									<img src="img/g1.jpg"/>
+									<img src="img/g1.jpg" />
 								</a>
 							</li>
-							<li class=" mt0">
+							<li class="col-md-4">
 								<div class="yinb">
-									<button type="button" class="btn btn-primary btn-lg btn_co" data-toggle="modal" data-target="#myModal" >
+									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
-								<a href="javascript:"><img src="img/g2.jpg"/></a></li>
-							<li class=" mt0">
+								<a href="javascript:"><img src="img/g2.jpg"/></a>
+							</li>
+							<li class="col-md-4 ">
 								<div class="yinb">
-									<button type="button" class="btn btn-primary btn-lg btn_co" data-toggle="modal" data-target="#myModal" >
+									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
-								<a href="#"><img src="img/g3.jpg"/></a></li>
-							<li class="ml0">
+								<a href="#"><img src="img/g3.jpg"/></a>
+							</li>
+							<li class="col-md-4">
 								<div class="yinb">
-									<button type="button" class="btn btn-primary btn-lg btn_co" data-toggle="modal" data-target="#myModal" >
+									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
-								<a href="#"><img src="img/g4.jpg"/></a></li>
-							<li>
+								<a href="#"><img src="img/g4.jpg"/></a>
+							</li>
+							<li class="col-md-4 ">
 								<div class="yinb">
-									<button type="button" class="btn btn-primary btn-lg btn_co" data-toggle="modal" data-target="#myModal" >
+									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
-								<a href="#"><img src="img/g5.jpg"/></a></li>
-							<li>
+								<a href="#"><img src="img/g5.jpg"/></a>
+							</li>
+							<li class="col-md-4 ">
 								<div class="yinb">
-									<button type="button" class="btn btn-primary btn-lg btn_co" data-toggle="modal" data-target="#myModal" >
+									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
 								<a href="#"><img src="img/g6.jpg"/></a></li>
-							<li class="ml0">
+							<li class="col-md-4 ">
 								<div class="yinb">
-									<button type="button" class="btn btn-primary btn-lg btn_co" data-toggle="modal" data-target="#myModal" >
+									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
 								<a href="#"><img src="img/g7.jpg"/></a></li>
-							<li>
+							<li class="col-md-4 ">
 								<div class="yinb">
-									<button type="button" class="btn btn-primary btn-lg btn_co" data-toggle="modal" data-target="#myModal" >
+									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
 								<a href="#"><img src="img/g8.jpg"/></a></li>
-							<li>
+							<li class="col-md-4 ">
 								<div class="yinb">
-									<button type="button" class="btn btn-primary btn-lg btn_co" data-toggle="modal" data-target="#myModal" >
+									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
 								<a href="#"><img src="img/ab.jpg"/></a></li>
-							<li class="ml0">
+							<li class="col-md-4 ">
 								<div class="yinb">
-									<button type="button" class="btn btn-primary btn-lg btn_co" data-toggle="modal" data-target="#myModal" >
+									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
 								<a href="#"><img src="img/ab.jpg"/></a></li>
-							<li>
+							<li class="col-md-4 ">
 								<div class="yinb">
-									<button type="button" class="btn btn-primary btn-lg btn_co" data-toggle="modal" data-target="#myModal" >
+									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
 								<a href="#"><img src="img/ab.jpg"/></a></li>
-							<li>
+							<li class="col-md-4 ">
 								<div class="yinb">
-									<button type="button" class="btn btn-primary btn-lg btn_co" data-toggle="modal" data-target="#myModal" >
-										<div class="yinb_a">FANTASY WORLO</div>
-									</button>
-								</div>
-								<a href="#"><img src="img/ab.jpg"/></a></li>
-							<li class="ml0">
-								<div class="yinb">
-									<button type="button" class="btn btn-primary btn-lg btn_co" data-toggle="modal" data-target="#myModal" >
-										<div class="yinb_a">FANTASY WORLO</div>
-									</button>
-								</div>
-								<a href="#"><img src="img/ab.jpg"/></a></li>
-							<li>
-								<div class="yinb">
-									<button type="button" class="btn btn-primary btn-lg btn_co" data-toggle="modal" data-target="#myModal" >
-										<div class="yinb_a">FANTASY WORLO</div>
-									</button>
-								</div>
-								<a href="#"><img src="img/ab.jpg"/></a></li>
-							<li>
-								<div class="yinb">
-									<button type="button" class="btn btn-primary btn-lg btn_co" data-toggle="modal" data-target="#myModal" >
+									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
 								<a href="#"><img src="img/ab.jpg"/></a></li>
 						</ul>
-					</div>
+					<!--</div>-->
 				</div>
 				<a href="#"><div class="poa sdw"></div></a>
 			</div>
@@ -344,7 +348,7 @@
 				    </div>
 			    </div>
 		</div>
-		<div class="container-fluid m_d Cme1 por">
+		<div class="container-fluid m_d Cme1 por" id="GT5">
 			<div class="row mc_a">
 					<p>LATEST NEWS</p>
 					<p>View Our Fantasy Games</p>
@@ -353,149 +357,76 @@
 		
 		
 <!--<div class="container-fluid">	-->	
-	<div class="rvc" id="rvc1" style="width: 946px;">
-		<div class="rvc-wrapper" style="width: 886px;">
-			<ul style="width: 5136px;">
-				<li style="" class="arrlis">
-					<a href="javascript:">
-						<div class="img-wrapper por">
-							<div class="zhez poa">
-								<div class="poa">
-									<button>FANTASY WORLD</button>
-									<p>Lorem Ipsum</p>
+		<div class="rvc" id="rvc1" style="width: 946px;">
+			<div class="rvc-wrapper" style="width: 886px;">
+				<ul style="width: 5136px;">
+					<li style="" class="arrlis">
+						<a href="javascript:">
+							<div class="img-wrapper por">
+								<div class="zhez poa">
+									<div class="poa arrdiv">
+										<form action="xw_one.html" class="formm1">
+											<button class="arr-btn1">FANTASY WORLD</button>
+										</form>
+										<p>Lorem Ipsum</p>
+									</div>
 								</div>
-							</div>
-							<img src="img/s1.jpg">
-						</div>	
-					</a>
-				</li>
-				<li style="" class="arrlis">
-					<a href="javascript:" >
-						
-						<div class="img-wrapper por">
-							<div class="zhez poa">
-								<div class="poa">
-									<button>FANTASY WORLD</button>
-									<p>Lorem Ipsum</p>
+								<img src="img/s1.jpg">
+							</div>	
+						</a>
+					</li>
+					<li style="" class="arrlis">
+						<a href="javascript:" >
+							
+							<div class="img-wrapper por">
+								<div class="zhez poa">
+									<div class="poa arrdiv">
+										<form action="xw_two.html"  class="formm">
+											<button class="arr-btn">FANTASY WORLD</button>
+										</form>
+										<p>Lorem Ipsum</p>
+									</div>
 								</div>
+								<img src="img/s2.jpg">
 							</div>
-							<img src="img/s2.jpg">
-						</div>
-					</a>
-				</li>
-				<li style="" class="arrlis">
-					<a href="javascript:">
-						<div class="img-wrapper por">
-							<div class="zhez poa">
-								<div class="poa">
-									<button>FANTASY WORLD</button>
-									<p>Lorem Ipsum</p>
+						</a>
+					</li>
+					<li style="" class="arrlis">
+						<a href="javascript:">
+							<div class="img-wrapper por">
+								<div class="zhez poa">
+									<div class="poa arrdiv">
+										<form action="xw_three.html"  class="formm">
+											<button class="arr-btn">FANTASY WORLD</button>
+										</form>
+										<p>Lorem Ipsum</p>
+									</div>
 								</div>
+								<img src="img/s3.jpg">
 							</div>
-							<img src="img/s3.jpg">
-						</div>
-					</a>
-				</li>
-				<li style=" " class="arrlis">
-					<a href="javascript:">
-						<div class="img-wrapper por">
-							<div class="zhez poa">
-								<div class="poa">
-									<button>FANTASY WORLD</button>
-									<p>Lorem Ipsum</p>
+						</a>
+					</li>
+					<li style=" " class="arrlis">
+						<a href="javascript:">
+							<div class="img-wrapper por">
+								<div class="zhez poa">
+									<div class="poa arrdiv">
+										<form  class="formm" action="xw_four.html">
+											<button class="arr-btn">FANTASY WORLD</button>
+										</form>
+										
+										<p>Lorem Ipsum</p>
+									</div>
 								</div>
+								<img src="img/s4.jpg">
 							</div>
-							<img src="img/s4.jpg">
-						</div>
-					</a>
-				</li>
-				<li style="" class="arrlis">
-					<a href="javascript:">
-						<div class="img-wrapper por">
-							<div class="zhez poa">
-								<div class="poa">
-									<button>FANTASY WORLD</button>
-									<p>Lorem Ipsum</p>
-								</div>
-							</div>
-							<img src="img/s5.jpg">
-						</div>
-					</a>
-				</li>
-				<li style="" class="arrlis">
-					<a href="javascript:">
-						<div class="img-wrapper por">
-							<div class="zhez poa">
-								<div class="poa">
-									<button>FANTASY WORLD</button>
-									<p>Lorem Ipsum</p>
-								</div>
-							</div>
-							<img src="img/s6.jpg">
-						</div>
-					</a>
-				</li>
-				<li style="" class="arrlis">
-					<a href="javascript:">
-						<div class="img-wrapper por">
-							<div class="zhez poa">
-								<div class="poa">
-									<button>FANTASY WORLD</button>
-									<p>Lorem Ipsum</p>
-								</div>
-							</div>
-							<img src="img/s7.jpg">
-						</div>
-					</a>
-				</li>
-			</ul>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="rvc-prv" style="width: 30px;"><img src="img/prv_icon.png" class="w100"></div>
+			<div class="rvc-next" style="width: 30px;"><img src="img/next_icon.png" class="w100"></div>
 		</div>
-		<div class="rvc-prv" style="width: 30px;"><img src="img/prv_icon.png" class="w100"></div>
-		<div class="rvc-next" style="width: 30px;"><img src="img/next_icon.png" class="w100"></div>
-	</div>
-		<!--<div class="container-fluid m_f">
-			<div class="row clearfix">
-				<div class="col-md-12 column">
-					<div class="row clearfix otp hov">
-						<div class="col-md-3 column otp por" style="height:447px;">
-							<div class="zhao poa">
-								<div class="text-center">
-									<a href="javascript:">FANTASY WORLD</a>
-									<span>Lorem Ipsum</span>
-								</div>
-							</div>
-							<img src="img/s1.jpg" style="width: 100%; height:447px;">
-						</div>
-						<div class="col-md-3 column otp" style="height:447px;">
-							<div class="zhao poa">
-								<div class="text-center">
-									<a href="javascript:">FANTASY WORLD</a>
-									<span>Lorem Ipsum</span>
-								</div>
-							</div>
-							<img src="img/s2.jpg" style="width: 100%; height:447px;">
-						</div>
-						<div class="col-md-3 column otp" style="height:447px;">
-							<div class="zhao poa">
-								<div class="text-center">
-									<a href="javascript:">FANTASY WORLD</a>
-									<span>Lorem Ipsum</span>
-								</div>
-							</div>
-							<img src="img/s3.jpg" style="width: 100%; height:447px;">
-						</div>
-						<div class="col-md-3 column otp" style="height:447px;">
-							<div class="zhao poa">
-								<div class="text-center">
-									<a href="javascript:">FANTASY WORLD</a>
-									<span>Lorem Ipsum</span>
-								</div>
-							</div>
-							<img src="img/s4.jpg" style="width: 100%; height:447px;">
-						</div>
-					</div>
-				</div>
-			</div>-->
 		</div>
 <!--	</div>-->	
 		<div class="container-fluid m_e">

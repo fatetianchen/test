@@ -2,10 +2,10 @@
 	$.fn.rvc = function(obj){
 		return this.each(function(){
 			var self = $(this);
-//          var startX = 0, startY = 0; //触摸开始时手势横纵坐标 
+            var startX = 0, startY = 0; //触摸开始时手势横纵坐标 
 	        var temPos; //滚动元素当前位置
 	        var iCurr = 0; //当前滚动屏幕数
-//	        var oPosition = {}; //触点位置
+	        var oPosition = {}; //触点位置
 			var iCurr = 0;
 			var ww;
 			var sw;
