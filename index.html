@@ -3,18 +3,17 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>游戏网站</title>
+		<title>游戏网站首页</title>
 		<link rel="stylesheet" type="text/css" href="css/base.css"/>
-		<link rel="stylesheet" type="text/css" href="css/jq22.css"/>
 		<link rel="stylesheet" type="text/css" href="css/css.css"/>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/lightGallery.css"/>
 	</head>
 	<body>
 		<div class="container-fluid D_top clearfix Cme poa">
 			<a href="javascript:" class="chi CN fr">中文</a>
 			<a href="javascript:"class="chi EN fr">English</a>
-			<!--<a class="chi fr"></a>-->
 			<form class="container D_top_form clearfix fr">
 		         <input type="text" placeholder="Search" class="fl">
 	        	<button type="submit" class="fr" ></button>
@@ -33,7 +32,6 @@
 				        <span class="icon-bar"></span>
 				        <span class="icon-bar"></span>
 				      </button>
-				      <!--<a class="navbar-brand" href="#">Brand</a>-->
 				    </div>
 			
 			    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -193,9 +191,8 @@
 					<p>Lorem Ipsum Dolor</p>
 				</div>
 				<div class="row mc_b ">
-					<!--<div class="mc_ba">-->
-						<ul class="container clearfix">
-							<li class="col-md-4">
+						<ul class="container clearfix gallery" id="auto-loop">
+							<li class="col-md-4" data-src="img/g1.jpg">
 								<div class="yinb ">
 									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
@@ -205,7 +202,7 @@
 									<img src="img/g1.jpg" />
 								</a>
 							</li>
-							<li class="col-md-4">
+							<li class="col-md-4" data-src="img/g2.jpg">
 								<div class="yinb">
 									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
@@ -213,7 +210,7 @@
 								</div>
 								<a href="javascript:"><img src="img/g2.jpg"/></a>
 							</li>
-							<li class="col-md-4 ">
+							<li class="col-md-4 " data-src="img/g3.jpg">
 								<div class="yinb">
 									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
@@ -221,7 +218,7 @@
 								</div>
 								<a href="#"><img src="img/g3.jpg"/></a>
 							</li>
-							<li class="col-md-4">
+							<li class="col-md-4" data-src="img/g4.jpg">
 								<div class="yinb">
 									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
@@ -229,7 +226,7 @@
 								</div>
 								<a href="#"><img src="img/g4.jpg"/></a>
 							</li>
-							<li class="col-md-4 ">
+							<li class="col-md-4 " data-src="img/g5.jpg">
 								<div class="yinb">
 									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
@@ -237,129 +234,66 @@
 								</div>
 								<a href="#"><img src="img/g5.jpg"/></a>
 							</li>
-							<li class="col-md-4 ">
+							<li class="col-md-4 " data-src="img/g6.jpg">
 								<div class="yinb">
 									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
 								<a href="#"><img src="img/g6.jpg"/></a></li>
-							<li class="col-md-4 ">
+							<li class="col-md-4 " data-src="img/g7.jpg">
 								<div class="yinb">
 									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
 								<a href="#"><img src="img/g7.jpg"/></a></li>
-							<li class="col-md-4 ">
+							<li class="col-md-4 " data-src="img/g8.jpg">
 								<div class="yinb">
 									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
 								<a href="#"><img src="img/g8.jpg"/></a></li>
-							<li class="col-md-4 ">
+							<li class="col-md-4 " data-src="img/ab.jpg">
 								<div class="yinb">
 									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
 								<a href="#"><img src="img/ab.jpg"/></a></li>
-							<li class="col-md-4 ">
+							<li class="col-md-4 " data-src="img/g3.jpg">
 								<div class="yinb">
 									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
-								<a href="#"><img src="img/ab.jpg"/></a></li>
-							<li class="col-md-4 ">
+								<a href="#"><img src="img/g3.jpg"/></a></li>
+							<li class="col-md-4 " data-src="img/g5.jpg">
 								<div class="yinb">
 									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
-								<a href="#"><img src="img/ab.jpg"/></a></li>
-							<li class="col-md-4 ">
+								<a href="#"><img src="img/g5.jpg"/></a></li>
+							<li class="col-md-4 " data-src="img/g1.jpg">
 								<div class="yinb">
 									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
-								<a href="#"><img src="img/ab.jpg"/></a></li>
+								<a href="#"><img src="img/g1.jpg"/></a></li>
 						</ul>
-					<!--</div>-->
 				</div>
-				<a href="#"><div class="poa sdw"></div></a>
+				<a href="#" class="poa sdw"></a>
 			</div>
-			<!-- Modal -->
-			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-header bor-no top por">
-			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			        <!--<div class="top">-->
-						<p>Games</p>
-						<p>Lorem lpsum is simply dummy text of the printing</p>
-					<!--</div>-->
-			    </div>
-			    <div class="modal-dialog" role="document">
-				    <div class="modal-content lun">
-				     <div class="mygallery clearfix">
-								<div class="tn3 album">
-								    <ol>
-										<li>
-										    <a href="img/g1.jpg">
-											<img src="img/g1.jpg" />
-										    </a>
-										</li>
-										<li>
-										    <a href="img/g2.jpg">
-											<img src="img/g2.jpg" />
-										    </a>
-										</li>
-										<li>
-										    <a href="img/g3.jpg">
-											<img src="img/g3.jpg" />
-										    </a>
-										</li>
-										<li>
-										    <a href="img/g4.jpg">
-											<img src="img/g4.jpg" />
-										    </a>
-										</li>
-										<li>
-										    <a href="img/g5.jpg">
-											<img src="img/g5.jpg" />
-										    </a>
-										</li>
-										<li>
-										    <a href="img/g6.jpg">
-											<img src="img/g6.jpg" />
-										    </a>
-										</li>
-										<li>
-										    <a href="img/g7.jpg">
-											<img src="img/g7.jpg" />
-										    </a>
-										</li>
-										<li>
-										    <a href="img/g8.jpg">
-											<img src="img/g8.jpg" />
-										    </a>
-										</li>
-								    </ol>
-								</div>
-						    </div>
-				    </div>
-			    </div>
 		</div>
 		<div class="container-fluid m_d Cme1 por" id="GT5">
 			<div class="row mc_a">
 					<p ><span class="Lg9">LATEST</span> <span class="Lg4">NEWS</span></p>
 					<p>View Our Fantasy Games</p>
 			</div>
-		</div>
-		
-		
-<!--<div class="container-fluid">	-->	
+		</div>		
 		<div class="rvc" id="rvc1" style="width: 946px;">
 			<div class="rvc-wrapper" style="width: 886px;">
 				<ul style="width: 5136px;">
@@ -431,16 +365,24 @@
 			<div class="rvc-next" style="width: 30px;"><img src="img/next_icon.png" class="w100"></div>
 		</div>
 		</div>
-<!--	</div>-->	
 		<div class="container-fluid m_e">
 			<p >SPIUHHJH</p>
 		</div>
 	</body>
-	<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
-	<script src="js/jquery.tn3lite.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/js.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/xwlunb.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/lightGallery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+    	 $(document).ready(function() {
+			$("#auto-loop").lightGallery({
+				loop:true,
+				auto:true,
+				pause:4000
+			});
+		});
+    </script>
 	<script type="text/javascript">
 		$('#rvc1').rvc({
 		    liNum: 4,//2~5之间的整数
@@ -450,38 +392,5 @@
 		    prv: '.rvc-prv',//前一个按钮
 		    next: '.rvc-next'//下一个按钮
 		})
-	</script>
-	<script>
-			$(document).ready(function() {
-				var tn1 = $('.mygallery').tn3({
-					skinDir:"skins",
-					imageClick:"fullscreen",
-					image:{
-					maxZoom:1.5,
-					crop:true,
-					clickEvent:"dblclick",
-					transitions:[{
-					type:"blinds"
-					},{
-					type:"grid"
-					},{
-					type:"grid",
-					duration:460,
-					easing:"easeInQuad",
-					gridX:1,
-					gridY:8,
-					// flat, diagonal, circle, random
-					sort:"random",
-					sortReverse:false,
-					diagonalStart:"bl",
-					// fade, scale
-					method:"scale",
-					partDuration:360,
-					partEasing:"easeOutSine",
-					partDirection:"left"
-					}]
-					}
-				});
-			});
 	</script>
 </html>

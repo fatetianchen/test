@@ -382,4 +382,25 @@ video{
 .single-slide-item .btn {
     color: #fff;
 }
-
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+.single-slide-item h2 {
+    font-weight: 100;
+    color: #f8f8f8;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 58px;
+    text-transform: uppercase;
+    line-height: 45px;
+}
+.p71{
+	padding-left: 15px !important;
+}
+.sdw{
+	display: inline-block;
+    width: 34px;
+    height: 34px;
+    right: 8%;
+    bottom: -30px;
+    background: url(../img/arrow.png) no-repeat center center;
+}
+}

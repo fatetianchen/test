@@ -1,4 +1,7 @@
-
+body.modal-open { 
+  padding-right: 0 !important;
+  overflow-y: scroll;
+}
 .D_top{
 	width: 100%;
 	height: 52px;
@@ -335,11 +338,13 @@
 	height: 70px;
 }
 .sdw{
+	display: inline-block;
 	width: 34px;
 	height: 34px;
 	right: 8%;
-	bottom: 0;
+	bottom: -3%;
 	background: url(../img/arrow.png) no-repeat center center;
+	z-index: 9;
 }
 .zhez{
 	width:100%;
@@ -386,64 +391,13 @@
 	font-size: 12px;
 }
 
-/*模态框*/
-.bor-no{
-	border: none !important;
-	width: 100%;
-	height: 60px;
-	background-color: rgba(0,0,0,1);
-}
-#myModal{
-	background-color: rgba(0,0,0,0.8) !important;
-}
-
-#myModal .top{
-	width: 100%;
-	height: 60px;
-/*	background-color: #000;*/
-	position: absolute;
-	top: 0;
-	left: 0;
-	padding-top: 6px;
-	box-sizing: border-box;
-}
-#myModal .top span{
-	display: inline-block;
-	line-height: 50px;
-	font-size: 30px;
-}
-#myModal .top p{
-	text-align: center;
-	margin: 0 0;
-}
-#myModal .top p:nth-of-type(1){
-	font-size: 18px;
-	font-weight: 600;
-	color: #fff;
-}
-#myModal .top p:nth-of-type(2){
-	font-size: 12px;
-	color: #fff;
-	line-height: 15px;
-}
-#myModal .lun{
-	width: 640px;
-	height: 425px;
-	margin: 0 auto;
-	margin-top: 150px;
-}
-.tn3-text-bg{
-	display: none;
-}
 @media only screen and (min-width: 680px) and (max-width: 800px) {
 	.rvc-prv{						
 	right: 16% !important;			
 }
 }
 @media only screen and (min-width: 350px) and (max-width: 500px) {
-	.rvc-prv{						
-	right: 30% !important;			
-}
+
 	.c6_tu1{
 	width: 320px ;
 	height: 246px ;
@@ -583,6 +537,9 @@
 
 }
 @media only screen and (min-width: 350px) and (max-width: 449px) {
+	.rvc-prv{						
+	right: 30% !important;			
+}
 	.con_zt1{
 	display: block;
 	width: 170px;
@@ -611,126 +568,17 @@
 	top: 0px;
 	margin-left: -60px;
 	font-size: 13px;
-	
 }
 .con_zt{
 	
 	display: none;
 }
 }
-@media only screen and (min-width: 400px) and (max-width: 768px) {
-	    .tn3-gallery {
-    position: relative;
-    width: 380px;
-    height: 425px;
-    background-color: #000000;
-    line-height: normal;
-}
-.tn3-image {
-    position: absolute;
-    width: 380px;
-    height: 378px;
-    background-color: #000000;
-}
-.tn3-controls-bg {
-    position: absolute;
-    width: 380px !important;
-    height: 47px;
-    bottom: 0px;
-    background-image: url('../img/tbg.png');
-}
-.tn3-thumbs {
-    position: absolute;
-    width: 230px;
-    height: 37px;
-    bottom: 0px;
-    left: 49px;
-    padding: 4px 28px 4px 28px;
-    background-image: url('../img/tbg2.png');
-}    
-#myModal .lun{
-	width: 380px;
-	height: 425px;
-	margin: 0 auto;
-	margin-top: 150px;
-}
-
-
-}
-@media only screen and (min-width: 350px) and (max-width: 399px) {
-.tn3-gallery {
-    position: relative;
-    width: 340px;
-    height: 425px;
-    background-color: #000000;
-    line-height: normal;
-}
-.tn3-image {
-    position: absolute;
-    width: 340px;
-    height: 378px;
-    background-color: #000000;
-}
-.tn3-controls-bg {
-    position: absolute;
-    width: 340px !important;
-    height: 47px;
-    bottom: 0px;
-    background-image: url('../img/tbg.png');
-}
-.tn3-thumbs {
-    position: absolute;
-    width: 190px;
-    height: 37px;
-    bottom: 0px;
-    left: 49px;
-    padding: 4px 28px 4px 28px;
-    background-image: url('../img/tbg2.png');
-}    
-#myModal .lun{
-	width: 340px;
-	height: 425px;
-	margin: 0 auto;
-	margin-top: 150px;
-}
-}
 @media only screen and (min-width: 300px) and (max-width: 349px) {
-.tn3-gallery {
-    position: relative;
-    width: 300px;
-    height: 325px;
-    background-color: #000000;
-    line-height: normal;
-}
-.tn3-image {
-    position: absolute;
-    width: 300px;
-    height: 278px;
-    background-color: #000000;
-}
-.tn3-controls-bg {
-    position: absolute;
-    width: 300px !important;
-    height: 47px;
-    bottom: 0px;
-    background-image: url('../img/tbg.png');
-}
-.tn3-thumbs {
-    position: absolute;
-    width: 150px;
-    height: 37px;
-    bottom: 0px;
-    left: 49px;
-    padding: 4px 28px 4px 28px;
-    background-image: url('../img/tbg2.png');
-}    
-#myModal .lun{
-	width: 300px;
-	height: 325px;
-	margin: 0 auto;
-	margin-top: 150px;
-}
 /*搜索*/
+	.rvc-prv{						
+	right: 30% !important;			
+}
 .D_top>.D_top_form{
 	width: 200px;
 	height: 35px;

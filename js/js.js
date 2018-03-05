@@ -44,7 +44,7 @@ $('.CN').click(function(){
 	$('.Lg6').text('世界建筑构件的幻想');
 	$('.Lg7').text('了解更多');
 	$('.Lg8').text('关于我们');
-	$('.Lg9').text('最新');
+	$('.Lg9').text('最  新');
 })
 //英文
 $('.EN').click(function(){

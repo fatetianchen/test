@@ -54,7 +54,7 @@
 				rvcw_li.css({'width':liw,'margin-left':obj.spaceBetween});
 				rvcw_ul.css('width',(liw+sb)*size);
 			})
-			//左滑
+//			左滑
 	        function move_left(){
 				iCurr++;
 		        if(iCurr==size/2+1){
@@ -90,27 +90,27 @@
 	            oPosition.y = tagY;
 	            return oPosition;
 	        }
-	        //触摸开始
-	        function touchStartFunc(e){
-	            touchPos(e);
-	            startX = oPosition.x;
-	            startY = oPosition.y;
-	            temPos = rvcw_ul.position().left;	         
-	        }
-	        // 触摸结束
-	        function touchEndFunc(e){
-	            touchPos(e);
-	            var moveX = oPosition.x - startX;
-	            var moveY = oPosition.y - startY;
-	            if (Math.abs(moveY) < Math.abs(moveX)) {
-	                if (moveX > 0) {
-	                    move_right();
-	                }
-	                else{
-	                   move_left();
-	                }	             
-	            }
-	        }	   
+//	        //触摸开始
+//	        function touchStartFunc(e){
+//	            touchPos(e);
+//	            startX = oPosition.x;
+//	            startY = oPosition.y;
+//	            temPos = rvcw_ul.position().left;	         
+//	        }
+//	        // 触摸结束
+//	        function touchEndFunc(e){
+//	            touchPos(e);
+//	            var moveX = oPosition.x - startX;
+//	            var moveY = oPosition.y - startY;
+//	            if (Math.abs(moveY) < Math.abs(moveX)) {
+//	                if (moveX > 0) {
+//	                    move_right();
+//	                }
+//	                else{
+//	                   move_left();
+//	                }	             
+//	            }
+//	        }	   
             if(system.win||system.mac||system.xll){           	
             	// 鼠标事件
 	            rvcw_ul.mousedown(function(event){
