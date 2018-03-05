@@ -404,3 +404,13 @@ video{
     background: url(../img/arrow.png) no-repeat center center;
 }
 }
+@media only screen and (min-width: 769px) and (max-width: 998px) {
+.sdw{
+	display: inline-block;
+    width: 34px;
+    height: 34px;
+    right: 8%;
+    bottom: -30px !important;
+    background: url(../img/arrow.png) no-repeat center center;
+}
+}
