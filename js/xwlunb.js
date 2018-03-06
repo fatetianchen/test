@@ -78,7 +78,7 @@
 			$(prv).on('click',function(){
 				move_right();
 			})
-			//获取触点位置
+//			获取触点位置
 	        function touchPos(e){
 	            var touches = e.changedTouches, l = touches.length, touch, tagX, tagY;
 	            for (var i = 0; i < l; i++) {
@@ -90,27 +90,27 @@
 	            oPosition.y = tagY;
 	            return oPosition;
 	        }
-//	        //触摸开始
-//	        function touchStartFunc(e){
-//	            touchPos(e);
-//	            startX = oPosition.x;
-//	            startY = oPosition.y;
-//	            temPos = rvcw_ul.position().left;	         
-//	        }
-//	        // 触摸结束
-//	        function touchEndFunc(e){
-//	            touchPos(e);
-//	            var moveX = oPosition.x - startX;
-//	            var moveY = oPosition.y - startY;
-//	            if (Math.abs(moveY) < Math.abs(moveX)) {
-//	                if (moveX > 0) {
-//	                    move_right();
-//	                }
-//	                else{
-//	                   move_left();
-//	                }	             
-//	            }
-//	        }	   
+	        //触摸开始
+	        function touchStartFunc(e){
+	            touchPos(e);
+	            startX = oPosition.x;
+	            startY = oPosition.y;
+	            temPos = rvcw_ul.position().left;	         
+	        }
+	        // 触摸结束
+	        function touchEndFunc(e){
+	            touchPos(e);
+	            var moveX = oPosition.x - startX;
+	            var moveY = oPosition.y - startY;
+	            if (Math.abs(moveY) < Math.abs(moveX)) {
+	                if (moveX > 0) {
+	                    move_right();
+	                }
+	                else{
+	                   move_left();
+	                }	             
+	            }
+	        }	   
             if(system.win||system.mac||system.xll){           	
             	// 鼠标事件
 	            rvcw_ul.mousedown(function(event){
@@ -142,4 +142,4 @@
             }      
 		})			      
 	}
-})(jQuery)	
+})(jQuery)

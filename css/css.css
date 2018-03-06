@@ -90,12 +90,6 @@ body.modal-open {
 	padding: 0 10px;
 }
 }
-/*@media only screen and (max-width: 1030px) {
-	.con_zt{
-	display: none;
-}
-
-}*/
  .ma_z_title{
 	margin-top: 12px;
 	font-size: 24px;
@@ -164,7 +158,7 @@ body.modal-open {
 .m_b{
 	padding-top: 60px;
 	padding-bottom: 75px;
-	background: url(../img/banner1.jpg) no-repeat center center;
+	background: url(../img/service.jpg) no-repeat center center;
 	background-size: cover;
 }
 .m_b_b{
@@ -390,11 +384,6 @@ body.modal-open {
 	letter-spacing: 10px;
 	font-size: 12px;
 }
-
-@media only screen and (min-width: 680px) and (max-width: 800px) {
-	.rvc-prv{						
-	right: 16% !important;			
-}
 }
 @media only screen and (min-width: 350px) and (max-width: 500px) {
 
@@ -439,7 +428,7 @@ body.modal-open {
 	max-width: 100%;
 	position: relative;
 	margin: auto;
-	padding-top: 40px;
+/*	padding-top: 40px;*/
 	overflow: hidden;
 }
 .rvc .rvc-wrapper{
@@ -472,10 +461,10 @@ body.modal-open {
 }
 .rvc-prv,.rvc-next{
 	width: 35px !important;
-	height: 20px !important;
+	height: 55px !important;
 	position: absolute;
 	height: 100%;
-	top: 0%;
+	top: 50%;
 	display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -488,23 +477,32 @@ body.modal-open {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-    background-color: #313131;
-    border-radius: 10px;
-}
-.rvc-prv{						
-	right: 15%;			
+/*    background-color: rgba(0,0,0,0.5);*/
+    margin-top: -25px;
+	background:rgba(0,0,0,0.5) url(../img/prv_icon.png) no-repeat center center;
+	background-size: 20px 30px;
 }
 .rvc-next{			
-	right: 10%;
-	
+	right: 0;	
+	background:rgba(0,0,0,0.5) url(../img/next_icon.png) no-repeat center center;
+	background-size: 20px 30px;
 }
 .w100{
-	width: 10px !important;
+	width: 20px !important;
 }
 .rvc .rvc-wrapper>ul>li>a .img-wrapper img{
 	width: 100%;
 	height: 100%;
 }
+.nobo{
+    display: none;
+}	
+.rvc:hover .nobo{
+	display: block !important;
+}
+.rvc:hover .nobo img{
+	text-align: center;
+	}
 .con_zt1{
 	width: 200px;
 	height: 49px;
@@ -537,9 +535,6 @@ body.modal-open {
 
 }
 @media only screen and (min-width: 350px) and (max-width: 449px) {
-	.rvc-prv{						
-	right: 30% !important;			
-}
 	.con_zt1{
 	display: block;
 	width: 170px;
@@ -576,9 +571,6 @@ body.modal-open {
 }
 @media only screen and (min-width: 300px) and (max-width: 349px) {
 /*搜索*/
-	.rvc-prv{						
-	right: 30% !important;			
-}
 .D_top>.D_top_form{
 	width: 200px;
 	height: 35px;
@@ -613,3 +605,7 @@ body.modal-open {
 .EN{
 	display: none;
 }
+.pt20{
+	padding-top: 20px;
+}
+	

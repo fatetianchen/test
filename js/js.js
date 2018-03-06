@@ -1,3 +1,4 @@
+
 $(document).scroll(function(){
 	var tops=$(this).scrollTop();
 	if(tops >50) {
@@ -62,3 +63,4 @@ $('.EN').click(function(){
 	$('.Lg8').text('ABOUT US');
 	$('.Lg9').text('LATEST');
 })
+//滑动

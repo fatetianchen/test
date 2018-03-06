@@ -4,23 +4,10 @@
 }
 @media only screen and (min-width: 300px) and (max-width: 768px) {
 	embed{
-		width: 250px !important;
+		width: 100% !important;
 	}
 	.xw-main img{
-		width: 300px !important;
+		width: 100% !important;
 	}
-	.xw-main-1 img{
-		width: 250px !important;
-	}
-	.xw-main a{
-		word-break:break-all;
-	}
-	.xw-main-4 p:nth-last-of-type(2) img{
-		width: 300px !important;
-		height: 250px !important;
-	}
-	.xw-main-4 p:nth-of-type(11) img{
-		width: 300px !important;
-		height: 250px !important;
-	}
+
 }

@@ -10,7 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 		<link rel="stylesheet" type="text/css" href="css/xw.css"/>
 	</head>
-	<body>
+	<body onload="showvalf()">
 		<div class="container-fluid D_top clearfix Cme poa">
 			<a href="javascript:" class="chi CN fr">中文</a>
 			<a href="javascript:"class="chi EN fr">English</a>
@@ -70,7 +70,7 @@
 		    </div>
 		</section>
 		<div class="container-fluid xw-main xw-main-1" >
-			<div class="container" id="ajax">
+			<div class="container" id="ajax" >
 				
 			</div>
 		
@@ -83,16 +83,5 @@
 	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/js.js" type="text/javascript" charset="utf-8"></script>
-	<script type="text/javascript">
-		$.ajax({
-					url: "http://139.196.239.213/thinkcmf/data_news.php?post_net=gamepoch.cn",
-					dataType:'json', 
-					data: {userId:"1"}, //请求的附加参数，用json对象
-					method:'POST',
-					success: function(data){
-						console.log(data)
-					$('#ajax').html(data[0].post_content);
-					},
-				});
-	</script>
+	<script src="js/ajax.js" type="text/javascript" charset="utf-8"></script>
 </html>

@@ -319,13 +319,6 @@ video{
     background-attachment: fixed;
 }
 
-/*.slide-4 {
-    background-image: url("../images/slider/slide4.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    background-attachment: fixed;
-}*/
 
 .carousel-fade .carousel-inner .item {
     background-attachment: fixed;
@@ -396,21 +389,16 @@ video{
 	padding-left: 15px !important;
 }
 .sdw{
-	display: inline-block;
-    width: 34px;
-    height: 34px;
-    right: 8%;
-    bottom: -30px;
-    background: url(../img/arrow.png) no-repeat center center;
+	display: none;
 }
 }
 @media only screen and (min-width: 769px) and (max-width: 998px) {
 .sdw{
-	display: inline-block;
-    width: 34px;
-    height: 34px;
-    right: 8%;
-    bottom: -30px !important;
-    background: url(../img/arrow.png) no-repeat center center;
+	right: 8%;
+	bottom: -30px;
 }
 }
+/*.yarrli>li{
+	width: 30px;
+	height: 30px;
+}*/
