@@ -1,11 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.fl {
-  float: left;
-}
+
 .box {
   height: 30px;
   line-height: 30px;
@@ -69,15 +62,30 @@
 /*  float: left;*/
   font-size: 14px;
 }
-@media only screen and (min-width: 768px) and (max-width: 1200px) {
-	.edui-faked-video{
-	width: 700px !important;
+@media only screen and (min-width: 569px) and (max-width: 768px) {
+.box button{
+	font-size: 12px;
 }
-	/*.xw_m p>img{
-		width: 700px;
-	}*/
-	.articleImg{
-		width: 700px !important;
+.box{
+	width: 340px;
+}
+.pageWrap {
+	width: 150px !important;
+}
+}
+@media only screen and (min-width: 300px) and (max-width: 568px) {
+	.box button{
+		padding: 0 3px;
+		margin: 0 3px;
+		font-size: 12px;
 	}
+	.box{
+	width: 290px;
 }
-
+.pageWrap {
+	width: 125px !important;
+}
+.box .pageWrap ul li {
+    width: 25px;
+    height: 30px;}
+}

@@ -375,6 +375,9 @@ video{
 .single-slide-item .btn {
     color: #fff;
 }
+.sjno{
+	display: none;
+}
 @media only screen and (min-width: 300px) and (max-width: 768px) {
 .single-slide-item h2 {
     font-weight: 100;
@@ -391,6 +394,32 @@ video{
 .sdw{
 	display: none;
 }
+.rvc{
+	display: none !important;
+}
+.sjno img{
+	width: 100% !important;
+	height: cover;
+}
+.sjno{
+	display: block;
+}
+.hov{
+	margin-bottom: 5px;
+}
+.hov:hover .zhez{
+	opacity: 1;
+}
+.axw>a{
+	font-size: 16px;
+	
+}
+.axw>a:hover{
+	cursor:pointer;
+}
+.axw>a>span{
+	font-size: 16px;
+}
 }
 @media only screen and (min-width: 769px) and (max-width: 998px) {
 .sdw{
@@ -398,7 +427,29 @@ video{
 	bottom: -30px;
 }
 }
-/*.yarrli>li{
+/*联系*/
+.contact{
+	padding: 50px 0;
+}
+.contact .contact_x{
+	font-family: "宋体";
+	font-weight: 600;
+}
+.contact p span{
+	line-height: 30px;
+}
+.contact p i{
+	display: inline-block;
 	width: 30px;
 	height: 30px;
-}*/
+	background: url(../img/fs.png) no-repeat center center;
+	float: left;
+	margin-right: 10px;
+
+}
+.contact p:nth-of-type(2) i{
+	background: url(../img/gt.png) no-repeat center center;
+}
+.contact p:nth-of-type(3) i{
+	background: url(../img/dw.png) no-repeat center center;
+}

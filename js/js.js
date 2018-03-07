@@ -46,6 +46,7 @@ $('.CN').click(function(){
 	$('.Lg7').text('了解更多');
 	$('.Lg8').text('关于我们');
 	$('.Lg9').text('最  新');
+	$('.Lg11').text('联系我们');
 })
 //英文
 $('.EN').click(function(){
@@ -62,5 +63,6 @@ $('.EN').click(function(){
 	$('.Lg7').text('Rcod MOrc');
 	$('.Lg8').text('ABOUT US');
 	$('.Lg9').text('LATEST');
+	$('.Lg11').text('CONTACT');
 })
 //滑动

@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
-		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<title>游戏网站首页</title>
 		<link rel="stylesheet" type="text/css" href="css/base.css"/>
 		<link rel="stylesheet" type="text/css" href="css/css.css"/>
@@ -293,7 +293,51 @@
 					<p ><span class="Lg9">LATEST</span> <span class="Lg4">NEWS</span></p>
 					<p>View Our Fantasy Games</p>
 			</div>
-		</div>		
+		</div>
+		<div class="container-fluid sjno">
+				<div class="col-xs-12 hov">
+					<div class="img-wrapper por">
+						<a href="xw_one.html?id=0">
+							<div class="zhez poa">
+								<div class="poa arrdiv">
+									<p class="arr-btn">FANTASY WORLD</p>
+									<p>Lorem Ipsum</p>
+								</div>
+							</div>
+							<img src="img/s1.jpg">
+						</a>
+					</div>
+				</div>
+				<div class="col-xs-12 hov">
+					<div class="img-wrapper por">
+						<a href="xw_one.html?id=1">
+							<div class="zhez poa">
+								<div class="poa arrdiv">
+									<p class="arr-btn">FANTASY WORLD</p>
+									<p>Lorem Ipsum</p>
+								</div>
+							</div>
+							<img src="img/s2.jpg">
+						</a>
+					</div>
+				</div>
+				<div class="col-xs-12 hov">
+					<div class="img-wrapper por">
+						<a href="xw_one.html?id=2">
+							<div class="zhez poa">
+								<div class="poa arrdiv">
+									<p class="arr-btn">FANTASY WORLD</p>
+									<p>Lorem Ipsum</p>
+								</div>
+							</div>
+							<img src="img/s3.jpg">
+						</a>
+					</div>
+				</div>
+				<div class="col-xs-12 axw clearfix">
+					<a class="fr" href="xw_one.html?id=98">更多新闻<span>&rsaquo;&rsaquo;</span></a>
+				</div>
+		</div>
 		<div class="rvc" id="rvc1" style="width: 946px;">
 			<div class="rvc-wrapper" style="width: 886px;">
 				<ul style="width: 5136px;" class="arruls">
@@ -302,7 +346,7 @@
 							<div class="img-wrapper por">
 								<div class="zhez poa">
 									<div class="poa arrdiv">
-										<button class="arr-btn">FANTASY WORLD</button>
+										<p class="arr-btn">FANTASY WORLD</p>
 										<p>Lorem Ipsum</p>
 									</div>
 								</div>
@@ -316,7 +360,7 @@
 							<div class="img-wrapper por">
 								<div class="zhez poa">
 									<div class="poa arrdiv">
-										<button class="arr-btn">FANTASY WORLD</button>
+										<p class="arr-btn">FANTASY WORLD</p>
 										<p>Lorem Ipsum</p>
 									</div>
 								</div>
@@ -329,7 +373,7 @@
 							<div class="img-wrapper por">
 								<div class="zhez poa">
 									<div class="poa arrdiv">
-										<button class="arr-btn">FANTASY WORLD</button>
+										<p class="arr-btn">FANTASY WORLD</p>
 										<p>Lorem Ipsum</p>
 									</div>
 								</div>
@@ -342,7 +386,7 @@
 							<div class="img-wrapper por">
 								<div class="zhez poa">
 									<div class="poa arrdiv">
-										<button class="arr-btn">FANTASY WORLD</button>
+										<p class="arr-btn">FANTASY WORLD</p>
 										<p>Lorem Ipsum</p>
 									</div>
 								</div>
@@ -356,6 +400,19 @@
 			<div class="rvc-next nobo"></div>
 		</div>
 		</div>
+		<div class="container-fluid Cme1 contact" id="GT6">
+			<div class="container-fluid mc_a">
+					<p ><span class="Lg11">CONTACT</span></p>
+					<p>View Our Fantasy Games</p>
+			</div>
+			<div class="container contact_x">
+				<p><i></i><span>邮箱地址 :&nbsp;</span><span>123456@163.com</span></p>
+				<p><i></i><span>联系方式 :&nbsp;</span><span>1234567891011</span></p>
+				<p><i></i><span>联系地址 :&nbsp;</span><span>上海市普陀区XXXXXXXXXX</span></p>
+			</div>
+				
+			<!--</div>-->
+		</div>
 		<div class="container-fluid m_e">
 			<p >SPIUHHJH</p>
 		</div>
@@ -366,13 +423,29 @@
 	<script src="js/xwlunb.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/lightGallery.min.js" type="text/javascript" charset="utf-8"></script>
 	<script>
-    	 $(document).ready(function() {
+    	$(document).ready(function() {
 			$("#auto-loop").lightGallery({
 				loop:true,
 				auto:true,
 				pause:4000
 			});
 		});
+	window.onload=function () {
+ 			document.addEventListener('touchstart',function (event) {  
+            if(event.touches.length>1){  
+                event.preventDefault();  
+            }  
+        })  
+
+        var lastTouchEnd=0; 
+       		document.addEventListener('touchend',function (event) { 
+            var now=(new Date()).getTime();  
+            if(now-lastTouchEnd<=300){  
+                event.preventDefault();  
+            }  
+            lastTouchEnd=now;  
+       },false)  
+	}
     </script>
 	<script type="text/javascript">
 		$('#rvc1').rvc({
