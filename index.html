@@ -16,8 +16,9 @@
      		 	height: 100vh;
    			}
 		    .swiper-slide {
-		      background-position: center;
-		      background-size: cover;
+		      background-repeat:no-repeat;
+		      background-size:cover;
+		      background-position:top;
 		    }
 		    .swiper-wrapper h2 {
 				font-weight: 100;
@@ -106,26 +107,28 @@
 		</div>
 		<div class="swiper-container">
 		    <div class="swiper-wrapper">
-		        <div class="swiper-slide por" style="background-image:url(img/banner1.jpg)">
+		        <div class="swiper-slide por swiper-slide swiper-lazy" data-background="img/banner1.jpg" >
 			      	<div class="slide-ztt poa">
 			      		<h2 id="wz1" class="Lg10">GIRL DRAGON FANTASY SWORD WING</h2>
 			      		<p class="Lg6">WPRLD BUILDING IS COMPONENT OF FANTASY</p>
 			            <a class="btn btn-lg btn-custom luna Lg7" href="javascript:">Rcod MOrc</a>
 			      	</div>
 		        </div>
-		        <div class="swiper-slide por" style="background-image:url(img/banner2.jpg)">
+		        <div class="swiper-slide por swiper-slide swiper-lazy"  data-background="img/banner2.jpg" >
 		        	<div class="slide-ztt poa">
 			      		<h2 id="wz1" class="Lg10">GIRL DRAGON FANTASY SWORD WING</h2>
 			      		<p class="Lg6">WPRLD BUILDING IS COMPONENT OF FANTASY</p>
 			            <a class="btn btn-lg btn-custom luna Lg7" href="javascript:">Rcod MOrc</a>
 			      	</div>
+			      	<div class="swiper-lazy-preloader"></div>
 		        </div>
-		        <div class="swiper-slide por" style="background-image:url(img/banner3.jpg)">
+		        <div class="swiper-slide por swiper-slide swiper-lazy"  data-background="img/banner3.jpg" >
 		        	<div class="slide-ztt poa">
 			      		<h2 id="wz1" class="Lg10">GIRL DRAGON FANTASY SWORD WING</h2>
 			      		<p class="Lg6">WPRLD BUILDING IS COMPONENT OF FANTASY</p>
 			            <a class="btn btn-lg btn-custom luna Lg7" href="javascript:">Rcod MOrc</a>
 			      	</div>
+			      	<div class="swiper-lazy-preloader"></div>
 		        </div>
 		    </div>
 		    <!-- Add Pagination -->
@@ -169,7 +172,7 @@
 				<div class="container clearfix">
 					<div class="col-md-3 m_b_b_b">
 						<span class="md_3_1">
-							<img src="img/s1.png" alt="" />
+							<img src="img/s1.png" alt="" />							
 						</span>
 						<p><span class="Lg2">SERVICE</span> 1</i></p>
 						<p>locem lpsum</p>
@@ -206,7 +209,7 @@
 				</div>
 				<div class="row mc_b ">
 						<ul class="container clearfix gallery" id="auto-loop">
-							<li class="col-md-4" data-src="img/g1.jpg">
+							<li class="col-md-4" data-src="img/g1.jpg" >
 								<div class="yinb ">
 									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
@@ -215,6 +218,7 @@
 								<a href="javascript:">
 									<img src="img/g1.jpg" />
 								</a>
+								
 							</li>
 							<li class="col-md-4" data-src="img/g2.jpg">
 								<div class="yinb">
@@ -222,7 +226,9 @@
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
-								<a href="javascript:"><img src="img/g2.jpg"/></a>
+								<a href="javascript:">
+									<img src="img/g2.jpg"/>
+								</a>
 							</li>
 							<li class="col-md-4 " data-src="img/g3.jpg">
 								<div class="yinb">
@@ -230,7 +236,9 @@
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
-								<a href="#"><img src="img/g3.jpg"/></a>
+								<a href="#">
+									<img src="img/g3.jpg"/>
+								</a>
 							</li>
 							<li class="col-md-4" data-src="img/g4.jpg">
 								<div class="yinb">
@@ -238,7 +246,9 @@
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
-								<a href="#"><img src="img/g4.jpg"/></a>
+								<a href="#">
+									<img src="img/g4.jpg"/>
+								</a>
 							</li>
 							<li class="col-md-4 " data-src="img/g5.jpg">
 								<div class="yinb">
@@ -246,7 +256,9 @@
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
-								<a href="#"><img src="img/g5.jpg"/></a>
+								<a href="#">
+									<img src="img/g5.jpg"/>
+								</a>
 							</li>
 							<li class="col-md-4 " data-src="img/g6.jpg">
 								<div class="yinb">
@@ -254,49 +266,70 @@
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
-								<a href="#"><img src="img/g6.jpg"/></a></li>
+								<a href="#">
+									<img src="img/g6.jpg"/>
+								</a>
+							</li>
 							<li class="col-md-4 " data-src="img/g7.jpg">
 								<div class="yinb">
 									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
-								<a href="#"><img src="img/g7.jpg"/></a></li>
+								<a href="#">
+									<img src="img/g7.jpg"/>
+								</a>
+							</li>
 							<li class="col-md-4 " data-src="img/g8.jpg">
 								<div class="yinb">
 									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
-								<a href="#"><img src="img/g8.jpg"/></a></li>
+								<a href="#">
+									<img src="img/g8.jpg"/>
+								</a>
+							</li>
 							<li class="col-md-4 " data-src="img/ab.jpg">
 								<div class="yinb">
 									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
-								<a href="#"><img src="img/ab.jpg"/></a></li>
+								<a href="#">
+									<img src="img/ab.jpg"/>
+								</a>
+							</li>
 							<li class="col-md-4 " data-src="img/g3.jpg">
 								<div class="yinb">
 									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
-								<a href="#"><img src="img/g3.jpg"/></a></li>
+								<a href="#">
+									<img src="img/g3.jpg"/>
+								</a>
+							</li>
 							<li class="col-md-4 " data-src="img/g5.jpg">
 								<div class="yinb">
 									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
-								<a href="#"><img src="img/g5.jpg"/></a></li>
+								<a href="#">
+									<img src="img/g5.jpg"/>
+								</a>
+							</li>
 							<li class="col-md-4 " data-src="img/g1.jpg">
 								<div class="yinb">
 									<button type="button" class="btn btn-primary btn-lg btn_co poa" data-toggle="modal" data-target="#myModal" >
 										<div class="yinb_a">FANTASY WORLO</div>
 									</button>
 								</div>
-								<a href="#"><img src="img/g1.jpg"/></a></li>
+								<a href="#">
+									<img src="img/g1.jpg"/>
+								</a>
+							</li>
 						</ul>
 				</div>
 				<a href="#" class="poa sdw"></a>
@@ -440,6 +473,10 @@
 	<script>
 		var swiper = new Swiper('.swiper-container', {
     	  autoplay:{disableOnInteraction:false},
+    	  loop : true,
+    	  lazy: {
+		    loadPrevNext: true,
+		  },
 	      spaceBetween: 30,
 	      effect: 'fade',
 	      pagination: {
