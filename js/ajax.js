@@ -7,7 +7,7 @@
      	console.log(showval)
      	if (showval==0) {
      		$.ajax({
-					url: "http://139.196.239.213/thinkcmf/data_news.php?post_net=gamepoch.cn",
+					url: "https://newseditor.gamepoch.com/thinkcmf/data_news.php?post_net=gamepoch.cn",
 					dataType:'json', 
 					data: {userId:"1"}, //请求的附加参数，用json对象
 					method:'POST',
@@ -19,7 +19,7 @@
 				});
      	} else if(showval==1){
      		$.ajax({
-					url: "http://139.196.239.213/thinkcmf/data_news.php?post_net=gamepoch.cn",
+					url: "https://newseditor.gamepoch.com/thinkcmf/data_news.php?post_net=gamepoch.cn",
 					dataType:'json', 
 					data: {userId:"1"}, //请求的附加参数，用json对象
 					method:'POST',
@@ -32,7 +32,7 @@
      		
      	}else if(showval==2){
      		$.ajax({
-					url: "http://139.196.239.213/thinkcmf/data_news.php?post_net=gamepoch.cn",
+					url: "https://newseditor.gamepoch.com/thinkcmf/data_news.php?post_net=gamepoch.cn",
 					dataType:'json', 
 					data: {userId:"1"}, //请求的附加参数，用json对象
 					method:'POST',
@@ -45,7 +45,7 @@
      		
      	}else if(showval==3){
      		$.ajax({
-					url: "http://139.196.239.213/thinkcmf/data_news.php?post_net=gamepoch.cn",
+					url: "https://newseditor.gamepoch.com/thinkcmf/data_news.php?post_net=gamepoch.cn",
 					dataType:'json', 
 					data: {userId:"1"}, //请求的附加参数，用json对象
 					method:'POST',
@@ -66,7 +66,7 @@
 //		        console.log(page);
 		        if(page==1){
 				$.ajax({
-					url: "http://139.196.239.213/thinkcmf/data_news.php?post_net=gamepoch.cn",
+					url: "https://newseditor.gamepoch.com/thinkcmf/data_news.php?post_net=gamepoch.cn",
 					dataType:'json', 
 					data: {userId:"1"}, //请求的附加参数，用json对象
 					method:'POST',
@@ -77,7 +77,7 @@
 				});
 		        }else if(page==2){
 		        	$.ajax({
-					url: "http://139.196.239.213/thinkcmf/data_news.php?post_net=gamepoch.cn",
+					url: "https://newseditor.gamepoch.com/thinkcmf/data_news.php?post_net=gamepoch.cn",
 					dataType:'json', 
 					data: {userId:"1"}, //请求的附加参数，用json对象
 					method:'POST',
@@ -88,7 +88,7 @@
 				});
 		        }else if(page==3){
 		        	$.ajax({
-					url: "http://139.196.239.213/thinkcmf/data_news.php?post_net=gamepoch.cn",
+					url: "https://newseditor.gamepoch.com/thinkcmf/data_news.php?post_net=gamepoch.cn",
 					dataType:'json', 
 					data: {userId:"1"}, //请求的附加参数，用json对象
 					method:'POST',
@@ -99,7 +99,7 @@
 				});
 		        }else if(page==4){
 		        	$.ajax({
-					url: "http://139.196.239.213/thinkcmf/data_news.php?post_net=gamepoch.cn",
+					url: "https://newseditor.gamepoch.com/thinkcmf/data_news.php?post_net=gamepoch.cn",
 					dataType:'json', 
 					data: {userId:"1"}, //请求的附加参数，用json对象
 					method:'POST',
@@ -110,7 +110,7 @@
 				});
 		        }else if(page==5){
 		        	$.ajax({
-					url: "http://139.196.239.213/thinkcmf/data_news.php?post_net=gamepoch.cn",
+					url: "https://newseditor.gamepoch.com/thinkcmf/data_news.php?post_net=gamepoch.cn",
 					dataType:'json', 
 					data: {userId:"1"}, //请求的附加参数，用json对象
 					method:'POST',
@@ -121,7 +121,7 @@
 				});
 		        }else if(page==6){
 		        	$.ajax({
-					url: "http://139.196.239.213/thinkcmf/data_news.php?post_net=gamepoch.cn",
+					url: "https://newseditor.gamepoch.com/thinkcmf/data_news.php?post_net=gamepoch.cn",
 					dataType:'json', 
 					data: {userId:"1"}, //请求的附加参数，用json对象
 					method:'POST',
@@ -132,7 +132,7 @@
 				});
 		        }else if(page==7){
 		        	$.ajax({
-					url: "http://139.196.239.213/thinkcmf/data_news.php?post_net=gamepoch.cn",
+					url: "https://newseditor.gamepoch.com/thinkcmf/data_news.php?post_net=gamepoch.cn",
 					dataType:'json', 
 					data: {userId:"1"}, //请求的附加参数，用json对象
 					method:'POST',
@@ -143,7 +143,7 @@
 				});
 		        }else if(page==8){
 		        	$.ajax({
-					url: "http://139.196.239.213/thinkcmf/data_news.php?post_net=gamepoch.cn",
+					url: "https://newseditor.gamepoch.com/thinkcmf/data_news.php?post_net=gamepoch.cn",
 					dataType:'json', 
 					data: {userId:"1"}, //请求的附加参数，用json对象
 					method:'POST',
@@ -154,7 +154,7 @@
 				});
 		        }else if(page==9){
 		        	$.ajax({
-					url: "http://139.196.239.213/thinkcmf/data_news.php?post_net=gamepoch.cn",
+					url: "https://newseditor.gamepoch.com/thinkcmf/data_news.php?post_net=gamepoch.cn",
 					dataType:'json', 
 					data: {userId:"1"}, //请求的附加参数，用json对象
 					method:'POST',
@@ -165,7 +165,7 @@
 				});
 		        }else if(page==10){
 		        	$.ajax({
-					url: "http://139.196.239.213/thinkcmf/data_news.php?post_net=gamepoch.cn",
+					url: "https://newseditor.gamepoch.com/thinkcmf/data_news.php?post_net=gamepoch.cn",
 					dataType:'json', 
 					data: {userId:"1"}, //请求的附加参数，用json对象
 					method:'POST',
@@ -176,7 +176,7 @@
 				});
 		        }else if(page==11){
 		        	$.ajax({
-					url: "http://139.196.239.213/thinkcmf/data_news.php?post_net=gamepoch.cn",
+					url: "https://newseditor.gamepoch.com/thinkcmf/data_news.php?post_net=gamepoch.cn",
 					dataType:'json', 
 					data: {userId:"1"}, //请求的附加参数，用json对象
 					method:'POST',
@@ -187,7 +187,7 @@
 				});
 		        }else if(page==12){
 		        	$.ajax({
-					url: "http://139.196.239.213/thinkcmf/data_news.php?post_net=gamepoch.cn",
+					url: "https://newseditor.gamepoch.com/thinkcmf/data_news.php?post_net=gamepoch.cn",
 					dataType:'json', 
 					data: {userId:"1"}, //请求的附加参数，用json对象
 					method:'POST',
@@ -198,7 +198,7 @@
 				});
 		        }else if(page==13){
 		        	$.ajax({
-					url: "http://139.196.239.213/thinkcmf/data_news.php?post_net=gamepoch.cn",
+					url: "https://newseditor.gamepoch.com/thinkcmf/data_news.php?post_net=gamepoch.cn",
 					dataType:'json', 
 					data: {userId:"1"}, //请求的附加参数，用json对象
 					method:'POST',
